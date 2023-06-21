@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.body{
+    background:hsl(220, 16%, 96%);
+    overflow-x: hidden;
+}
+
+.bgdiv{
+right: -400px;
+top: -120px;
+z-index: -0.5;
+}
+header{
+    z-index: 10;
+}
+.bg{
+    height: 725px;
+    width: 1100px;
+}
+.bg2{
+    height: 705px;
+    width: 580px;
+    right: 310px;
+    top: 90px;
+}
+.btn{
+    background:linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    transition: 0.5s;
+}
+.btn:hover{
+    background:linear-gradient(to right, hsl(136, 52%, 64%),hsl(192, 77%, 64%));
+}
+.header{
+    box-shadow: 0px 0px 20px hsl(220, 16%, 96%);
+    background-color: hsl(0, 0%, 100%);
+}
+.header_links{
+    color: hsl(233, 8%, 62%);
+}
+.break{
+    line-break: anywhere;
+}
+.a{
+    height: 70vh;
+}
+.b{
+    background:hsl(240, 15%, 92%);
+}
+footer{
+    background:hsl(233, 26%, 24%);
+}
+
+.state:hover{
+    border-bottom:4px solid hsl(136, 65%, 51%);
+}
+.blue-text{
+color: hsl(233, 26%, 24%);
+}
+.grey_text{
+color: hsl(233, 8%, 62%);
+}
+
+
+@media (min-width:1800px){
+    .main{
+        width: 1800px;
+        position: relative;
+        overflow-x: hidden;
+       
+    }
+     body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+     }
+}
